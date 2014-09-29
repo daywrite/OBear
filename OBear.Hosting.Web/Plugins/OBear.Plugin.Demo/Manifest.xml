@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="Demo示例插件" SymbolicName="DemoPlugin" Version="1.0.0.1" InitializedState="Active">
+  <Activator Type="OBear.Plugin.Demo.BundleActivator" Policy="Immediate" />
+  <Runtime>
+    <Assembly Path="bin\OBear.Plugin.Demo.dll" Share="false" MultipleVersions="false" />
+  </Runtime>
+</Bundle>
