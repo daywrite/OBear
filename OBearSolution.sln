@@ -1,11 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-基础设施", "1-基础设施", "{5863DEB7-8F07-40AC-9036-AC5C87C9FD62}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBear.Utility", "OBear.Utility\OBear.Utility.csproj", "{FC21D616-5C49-4F07-B56A-B14A64091064}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-展现层", "2-展现层", "{C40CD167-69A3-41B0-945B-B0D528FD9997}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedLibs", "SharedLibs", "{6243BEB5-20CC-4D67-BD03-3ACA2F906148}"
+	ProjectSection(SolutionItems) = preProject
+		E:\Program Files (x86)\Tencent\582956443\FileRecv\UIShell.OSGi.dll = E:\Program Files (x86)\Tencent\582956443\FileRecv\UIShell.OSGi.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBear.Plugin", "OBear.Plugin\OBear.Plugin.csproj", "{7B3805A4-A1ED-435B-8BC5-19142E467E22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-插件", "3-插件", "{8AE139BC-C47A-4146-9AAF-B7CB2C2C8FB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoPlugin", "DemoPlugin", "{374F9E9C-F68E-467C-8B23-F6B2DDA75B78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBear.Plugin.Demo", "OBear.Plugin.Demo\OBear.Plugin.Demo.csproj", "{CE11A7B2-D711-4126-8C7D-A6A077ECFD94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,11 +32,22 @@ Global
 		{FC21D616-5C49-4F07-B56A-B14A64091064}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC21D616-5C49-4F07-B56A-B14A64091064}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC21D616-5C49-4F07-B56A-B14A64091064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B3805A4-A1ED-435B-8BC5-19142E467E22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B3805A4-A1ED-435B-8BC5-19142E467E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B3805A4-A1ED-435B-8BC5-19142E467E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B3805A4-A1ED-435B-8BC5-19142E467E22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE11A7B2-D711-4126-8C7D-A6A077ECFD94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE11A7B2-D711-4126-8C7D-A6A077ECFD94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE11A7B2-D711-4126-8C7D-A6A077ECFD94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE11A7B2-D711-4126-8C7D-A6A077ECFD94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FC21D616-5C49-4F07-B56A-B14A64091064} = {5863DEB7-8F07-40AC-9036-AC5C87C9FD62}
+		{7B3805A4-A1ED-435B-8BC5-19142E467E22} = {5863DEB7-8F07-40AC-9036-AC5C87C9FD62}
+		{374F9E9C-F68E-467C-8B23-F6B2DDA75B78} = {8AE139BC-C47A-4146-9AAF-B7CB2C2C8FB3}
+		{CE11A7B2-D711-4126-8C7D-A6A077ECFD94} = {C40CD167-69A3-41B0-945B-B0D528FD9997}
 	EndGlobalSection
 EndGlobal
