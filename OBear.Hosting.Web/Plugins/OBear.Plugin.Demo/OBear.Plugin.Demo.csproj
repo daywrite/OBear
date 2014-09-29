@@ -96,6 +96,9 @@
     <Reference Include="UIShell.OSGi">
       <HintPath>..\..\..\SharedLibs\UIShell.OSGi.dll</HintPath>
     </Reference>
+    <Reference Include="UIShell.PageFlowService">
+      <HintPath>..\..\..\SharedLibs\UIShell.PageFlowService.dll</HintPath>
+    </Reference>
     <Reference Include="WebGrease">
       <HintPath>..\..\..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
     </Reference>

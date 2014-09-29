@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@{
+    const string locationKey = "Location";
+}
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -20,6 +23,10 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="/">首页</a></li>
+                    @foreach (var node in MvcApplication.NavigationNodes.Where(m => m.Attributes.ContainsKey(locationKey) && m.Attributes[locationKey].StartsWith("前台.主导航")))
+                    {
+                        <li><a href="@node.Value">@node.Name</a></li>
+                    }
                 </ul>
             </div>
         </div>

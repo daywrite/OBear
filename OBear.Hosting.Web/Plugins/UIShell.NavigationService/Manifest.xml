@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="UIShell.NavigationService" SymbolicName="UIShell.NavigationService" Version="1.0.0.0" InitializedState="Active" StartLevel="2">
+  <Activator Type="UIShell.NavigationService.BundleActivator" Policy="Immediate" />
+  <Runtime>
+    <Assembly Path="bin\UIShell.NavigationService.dll" Share="true" MultipleVersions="false" />
+    <Dependency BundleSymbolicName="UIShell.PermissionService" AssemblyName="UIShell.PermissionService" Resolution="Mandatory" />
+  </Runtime>
+</Bundle>

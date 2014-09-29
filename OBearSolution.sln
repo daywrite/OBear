@@ -12,6 +12,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedLibs", "SharedLibs", "{6243BEB5-20CC-4D67-BD03-3ACA2F906148}"
 	ProjectSection(SolutionItems) = preProject
 		E:\Program Files (x86)\Tencent\582956443\FileRecv\UIShell.OSGi.dll = E:\Program Files (x86)\Tencent\582956443\FileRecv\UIShell.OSGi.dll
+		..\..\OSharp\OSharpFramework\Developing\packages\UIShell.PageFlowService.1.2.0.1\lib\net40\UIShell.PageFlowService.dll = ..\..\OSharp\OSharpFramework\Developing\packages\UIShell.PageFlowService.1.2.0.1\lib\net40\UIShell.PageFlowService.dll
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBear.Plugin", "OBear.Plugin\OBear.Plugin.csproj", "{7B3805A4-A1ED-435B-8BC5-19142E467E22}"

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="权限服务" SymbolicName="UIShell.PermissionService" Version="1.0.0.0" InitializedState="Active" StartLevel="2">
+  <Activator Type="UIShell.PermissionService.BundleActivator" Policy="Immediate" />
+  <Runtime>
+    <Assembly Path="bin\UIShell.PermissionService.dll" Share="true" MultipleVersions="false" />
+  </Runtime>
+</Bundle>

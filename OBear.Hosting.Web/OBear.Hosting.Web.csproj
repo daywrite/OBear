@@ -93,6 +93,10 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="UIShell.NavigationService, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e7429fb96767d50d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Plugins\UIShell.NavigationService\bin\UIShell.NavigationService.dll</HintPath>
+    </Reference>
     <Reference Include="UIShell.OSGi">
       <HintPath>..\SharedLibs\UIShell.OSGi.dll</HintPath>
     </Reference>
@@ -126,11 +130,21 @@
     <Content Include="Plugins\RemotingManagement\Manifest.xml" />
     <Content Include="Plugins\RemotingManagement\persistent.xml" />
     <Content Include="Plugins\RemotingManagement\UIShell.RemotingManagement.dll" />
+    <Content Include="Plugins\UIShell.NavigationService\bin\UIShell.NavigationService.dll" />
+    <Content Include="Plugins\UIShell.NavigationService\Manifest.xml" />
+    <Content Include="Plugins\UIShell.NavigationService\persistent.xml" />
+    <Content Include="Plugins\UIShell.PageFlowService\bin\UIShell.PageFlowService.dll" />
+    <Content Include="Plugins\UIShell.PageFlowService\Manifest.xml" />
+    <Content Include="Plugins\UIShell.PageFlowService\persistent.xml" />
+    <Content Include="Plugins\UIShell.PermissionService\bin\UIShell.PermissionService.dll" />
+    <Content Include="Plugins\UIShell.PermissionService\Manifest.xml" />
+    <Content Include="Plugins\UIShell.PermissionService\persistent.xml" />
     <Content Include="Plugins\WebServiceWrapperService\Manifest.xml" />
     <Content Include="Plugins\WebServiceWrapperService\persistent.xml" />
     <Content Include="Plugins\WebServiceWrapperService\UIShell.WebServiceWrapperService.dll" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Plugins\UIShell.PermissionService\bin\UIShell.PermissionService.dll.shadow" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

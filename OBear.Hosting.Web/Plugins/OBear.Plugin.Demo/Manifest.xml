@@ -4,4 +4,7 @@
   <Runtime>
     <Assembly Path="bin\OBear.Plugin.Demo.dll" Share="false" MultipleVersions="false" />
   </Runtime>
+  <Extension Point="UIShell.NavigationService">
+    <Node Name="示例插件" Location="后台管理.导航菜单.其他" Order="1" Icon="pic_126" ToolTip="示例插件" Value="/demo/admin" />
+  </Extension>
 </Bundle>
