@@ -11,12 +11,21 @@ namespace OBear.Hosting.Web
 {
     public class MvcApplication : BundleRuntimeMvcApplication
     {
-        protected void Application_Start()
+        //protected void Application_Start()
+        //{
+        //AreaRegistration.RegisterAllAreas();
+        //FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
+        //RouteConfig.RegisterRoutes(RouteTable.Routes);
+        //BundleConfig.RegisterBundles(BundleTable.Bundles);
+        //}
+        protected override void Application_Start(object sender, EventArgs e)
         {
-            //AreaRegistration.RegisterAllAreas();
-            //FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
-            //RouteConfig.RegisterRoutes(RouteTable.Routes);
-            //BundleConfig.RegisterBundles(BundleTable.Bundles);
+            base.Application_Start(sender, e);
+        }
+
+        public override void RegisterResourceBundles()
+        {
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
     }
 }
