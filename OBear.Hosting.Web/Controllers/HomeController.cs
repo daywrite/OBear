@@ -4,11 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace OBear.Plugin.Demo.Controllers
+namespace OBear.Hosting.Web.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: Home
+        // GET: Default
         public ActionResult Index()
         {
             return View();

@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace OBear.Plugin.Demo
+namespace OBear.Hosting.Web
 {
     public class BundleConfig
     {
