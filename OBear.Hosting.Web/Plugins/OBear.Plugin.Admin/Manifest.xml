@@ -2,7 +2,7 @@
 <Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="管理系统主界面" SymbolicName="AdminPlugin" Version="1.0.0.3" InitializedState="Active">
   <Activator Type="OBear.Plugin.Admin.BundleActivator" Policy="Immediate" />
   <Runtime>
-    <Assembly Path="bin\OBear.Plugin.Admin.dll" Share="false" MultipleVersions="false" />
+    <Assembly Path="bin\OBear.Plugin.Admin.dll" Share="false" MultipleVersions="false" />  
   </Runtime>
   <Extension Point="UIShell.NavigationService">
     <Node Name="管理" Location="前台.主导航" Order="1" ToolTip="点击进入后台管理" Value="/admin" />

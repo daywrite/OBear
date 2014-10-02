@@ -8,7 +8,7 @@ namespace OBear.Plugin.Admin.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: Home
+        // GET: Default
         public ActionResult Index()
         {
             return View();

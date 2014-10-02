@@ -9,6 +9,7 @@ using System.Web.Routing;
 using OBear.Plugin.Mvc;
 
 using UIShell.NavigationService;
+using System.Reflection;
 
 namespace OBear.Hosting.Web
 {
@@ -26,11 +27,12 @@ namespace OBear.Hosting.Web
 
         protected override void Application_Start(object sender, EventArgs e)
         {
+            Assembly hostAssembly = Assembly.GetExecutingAssembly();
+            DefaultConfig.RegisterHostingNamespaces(hostAssembly);
             base.Application_Start(sender, e);
 
             //给菜单赋值
             NavigationNodes = NavigationInitialize();
-
         }
 
         //通过插件获取到菜单项
