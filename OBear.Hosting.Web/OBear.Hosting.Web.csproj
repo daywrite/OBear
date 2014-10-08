@@ -105,11 +105,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Plugins\UIShell.BundleManagementService\bin\ICSharpCode.SharpZipLib.dll.shadow" />
+    <Content Include="Plugins\UIShell.BundleManagementService\bin\UIShell.BundleManagementService.dll.shadow" />
+    <Content Include="Plugins\UIShell.BundleManagementService\bin\UIShell.iOpenWorks.BundleRepository.dll.shadow" />
     <None Include="Scripts\jquery.linq-vsdoc.js" />
     <Content Include="Content\images\icon.png" />
     <Content Include="Content\images\icons.png" />
     <Content Include="Content\images\tools.png" />
     <Content Include="Content\obear-icons.css" />
+    <Content Include="Plugins\UIShell.BundleManagementService\bin\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="Plugins\UIShell.BundleManagementService\bin\UIShell.BundleManagementService.dll" />
+    <Content Include="Plugins\UIShell.BundleManagementService\bin\UIShell.iOpenWorks.BundleRepository.dll" />
+    <Content Include="Plugins\UIShell.BundleManagementService\Manifest.xml" />
+    <Content Include="Plugins\UIShell.BundleManagementService\persistent.xml" />
     <Content Include="Scripts\jquery.linq.js" />
     <Content Include="Scripts\jquery.linq.min.js" />
     <Content Include="Scripts\json2.js" />
@@ -186,6 +194,10 @@
     <ProjectReference Include="..\OBear.Utility\OBear.Utility.csproj">
       <Project>{fc21d616-5c49-4f07-b56a-b14a64091064}</Project>
       <Name>OBear.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OBear.Web.NET45\OBear.Web.NET45.csproj">
+      <Project>{2c8b59af-ff5a-4fee-b58a-71e86ad4c3ba}</Project>
+      <Name>OBear.Web.NET45</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

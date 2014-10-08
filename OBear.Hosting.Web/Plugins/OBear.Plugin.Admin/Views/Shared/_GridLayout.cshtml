@@ -1,0 +1,74 @@
+﻿@{
+    Layout = Url.BundleContent(BundleActivator.Bundle, "~/Views/Shared/_Layout.cshtml");
+    string toolbarItem = ViewBag.ToolbarItem ?? "add,edit,save,cancel,delete";
+}
+@section footer{
+    <script type="text/javascript">
+        //要绑定的列对象
+        var columns = [[]];
+    </script>
+    @RenderSection("customScript", false)
+    <script type="text/javascript">
+        $(function () {
+            $("#grid-@ViewBag.GridId").datagrid({
+                //标题
+                title: "@ViewBag.Title",
+                //整个Content适应右侧区域
+                fit: "@ViewBag.fit" == "true" ? true : false,
+                //要绑定的列对象
+                columns: columns,
+                //自动扩大或缩小列的尺寸以适应表格的宽度并且防止水平滚动
+                fitColumns: true,
+                //交替显示背景色
+                striped: true,
+                //请求路径
+                url: "@ViewBag.GridDataUrl",
+                //当从远程站点加载数据时，显示的提示信息
+                loadMsg: "正在加载数据，请稍候",
+                //上侧操作按钮
+                //toolbar: toolbarData,
+                //是否显示行号
+                rownumbers: true,
+                //选中一行的设置
+                singleSelect: true,
+                //是否显示分页控件
+                pagination: true,
+                //图标
+                iconCls: "icon-save",
+                //隐藏按钮
+                collapsible: true,
+                //冻结列
+                frozenColumns: [[{ field: "chk", "checkbox": true }]],
+                //传输参数
+                //queryParams: { "where": "@ViewBag.Id" },
+                loadFilter: loadFilter,
+                //onLoadSuccess: function (data) {
+                //    $('.editcls').linkbutton({ text: '编辑', plain: true, iconCls: 'icon-edit' });
+                //}
+            });
+
+            function loadFilter(data) {
+                if (data.Rows && data.Total) {
+                    data.rows = data.Rows;
+                    data.total = data.Total;
+                    delete data.Rows;
+                    delete data.Total;
+                }
+                return data;
+            }
+
+            //将查询条件html添加到toolbar后面
+            //$("#tool").appendTo('.datagrid-toolbar');
+
+            $("#grid-@ViewBag.GridId").datagrid('getPager').pagination({
+                beforePageText: "第",
+                afterPageText: "页",
+                displayMsg: "当前 {from} - {to}条数据   共{total} 条数据",
+                pageSize: 10,
+                pageList: [5, 10, 15, 20, 30]
+            });
+        });
+    </script>
+}
+@RenderBody()
+<div id="grid-@ViewBag.GridId"></div>

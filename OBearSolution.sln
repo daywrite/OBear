@@ -29,6 +29,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdminPlugin", "AdminPlugin"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBear.Plugin.Admin", "OBear.Hosting.Web\Plugins\OBear.Plugin.Admin\OBear.Plugin.Admin.csproj", "{724EF91E-A47F-4B22-92A9-EE2329E73CE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBear.Web.NET45", "OBear.Web.NET45\OBear.Web.NET45.csproj", "{2C8B59AF-FF5A-4FEE-B58A-71E86AD4C3BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{724EF91E-A47F-4B22-92A9-EE2329E73CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{724EF91E-A47F-4B22-92A9-EE2329E73CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{724EF91E-A47F-4B22-92A9-EE2329E73CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C8B59AF-FF5A-4FEE-B58A-71E86AD4C3BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8B59AF-FF5A-4FEE-B58A-71E86AD4C3BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8B59AF-FF5A-4FEE-B58A-71E86AD4C3BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8B59AF-FF5A-4FEE-B58A-71E86AD4C3BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,5 +73,6 @@ Global
 		{C285C5A4-9455-426C-99E1-E0451A43A5D0} = {374F9E9C-F68E-467C-8B23-F6B2DDA75B78}
 		{32167E46-D31D-4547-80E8-EE54BB2128E7} = {8AE139BC-C47A-4146-9AAF-B7CB2C2C8FB3}
 		{724EF91E-A47F-4B22-92A9-EE2329E73CE8} = {32167E46-D31D-4547-80E8-EE54BB2128E7}
+		{2C8B59AF-FF5A-4FEE-B58A-71E86AD4C3BA} = {5863DEB7-8F07-40AC-9036-AC5C87C9FD62}
 	EndGlobalSection
 EndGlobal

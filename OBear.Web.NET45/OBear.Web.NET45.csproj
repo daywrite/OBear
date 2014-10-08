@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FC21D616-5C49-4F07-B56A-B14A64091064}</ProjectGuid>
+    <ProjectGuid>{2C8B59AF-FF5A-4FEE-B58A-71E86AD4C3BA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OBear.Utility</RootNamespace>
-    <AssemblyName>OBear.Utility</AssemblyName>
+    <RootNamespace>OBear.Web.NET45</RootNamespace>
+    <AssemblyName>OBear.Web.NET45</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,21 +30,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Newtonsoft.Json.6.0.5\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Management" />
-    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -77,79 +72,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Collections\ComparisonHelper.cs" />
-    <Compile Include="Collections\EqualityHelper.cs" />
-    <Compile Include="DataAnnotations\PasswordAttribute.cs" />
-    <Compile Include="Data\AnyRadixConvert.cs" />
-    <Compile Include="Data\CheckExistsType.cs" />
-    <Compile Include="Data\CombHelper.cs" />
-    <Compile Include="Data\JsonHelper.cs" />
-    <Compile Include="Data\MathHelper.cs" />
-    <Compile Include="Data\OperationResult.cs" />
-    <Compile Include="Data\OperationResultType.cs" />
-    <Compile Include="Data\PageCondition.cs" />
-    <Compile Include="Data\Singleton.cs" />
-    <Compile Include="Data\SingletonDictionary.cs" />
-    <Compile Include="Data\SingletonList.cs" />
-    <Compile Include="Data\SortCondition.cs" />
-    <Compile Include="Develop\CodeRamer.cs" />
-    <Compile Include="Develop\CodeTimer.cs" />
-    <Compile Include="Disposable.cs" />
-    <Compile Include="Drawing\ValidateCoder.cs" />
-    <Compile Include="Drawing\ValidateCodeType.cs" />
-    <Compile Include="Exceptions\OSharpException.cs" />
-    <Compile Include="Extensions\BooleanExtensions.cs" />
-    <Compile Include="Extensions\CollectionExtensions.cs" />
-    <Compile Include="Extensions\EnumExtensions.cs" />
-    <Compile Include="Extensions\ExceptionExtensions.cs" />
-    <Compile Include="Extensions\ExpressionExtensions.cs" />
-    <Compile Include="Extensions\HttpRequestExtensions.cs" />
-    <Compile Include="Extensions\LinqToXmlExtensions.cs" />
-    <Compile Include="Extensions\MemoryCacheExtensions.cs" />
-    <Compile Include="Extensions\ObjectExtensions.cs" />
-    <Compile Include="Extensions\ParamterCheckExtensions.cs" />
-    <Compile Include="Extensions\RandomExtensions.cs" />
-    <Compile Include="Extensions\StringBuilderExtensions.cs" />
-    <Compile Include="Extensions\StringExtensions.cs" />
-    <Compile Include="Extensions\ThreadExtensions.cs" />
-    <Compile Include="Extensions\TryCatchExtensions.cs" />
-    <Compile Include="Extensions\TypeExtensions.cs" />
-    <Compile Include="Filter\FilterGroup.cs" />
-    <Compile Include="Filter\FilterHelper.cs" />
-    <Compile Include="Filter\FilterOperate.cs" />
-    <Compile Include="Filter\FilterRule.cs" />
-    <Compile Include="Filter\OperateCodeAttribute.cs" />
-    <Compile Include="Filter\QueryablePropertySorter.cs" />
-    <Compile Include="IO\DirectoryHelper.cs" />
-    <Compile Include="IO\FileHelper.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Secutiry\CommunicationCryptor.cs" />
-    <Compile Include="Secutiry\DesHelper.cs" />
-    <Compile Include="Secutiry\HashHelper.cs" />
-    <Compile Include="Secutiry\RsaHelper.cs" />
-    <Compile Include="Web\UserAgentHelper.cs" />
-    <Compile Include="Windows\RegistryBaseKey.cs" />
-    <Compile Include="Windows\RegistryHelper.cs" />
-    <Compile Include="Windows\SystemInfo.cs" />
-    <Compile Include="Windows\SystemInfoHandler.cs" />
-    <Compile Include="Windows\WMIPath.cs" />
+    <Compile Include="UI\AjaxResult.cs" />
+    <Compile Include="UI\AjaxResultType.cs" />
+    <Compile Include="UI\GridData.cs" />
+    <Compile Include="UI\GridRequest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OBear.Utility\OBear.Utility.csproj">
+      <Project>{fc21d616-5c49-4f07-b56a-b14a64091064}</Project>
+      <Name>OBear.Utility</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Net\" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

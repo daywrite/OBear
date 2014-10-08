@@ -1,0 +1,17 @@
+﻿@{
+    Layout = Url.BundleContent(BundleActivator.Bundle, "~/Views/Shared/_GridLayout.cshtml");
+    ViewBag.Title = "插件管理";
+    ViewBag.GridId = "bundles";
+    ViewBag.GridDataUrl = Url.Action("GetGridData");
+    ViewBag.ToolbarItem = string.Empty;
+}
+@section customScript{
+    <script type="text/javascript">
+        columns = [[
+            { field: "Name", title: "插件名称", width: 200, sortable: true },
+            { field: "SymbolicName", title: "插件标识", width: 200, sortable: true },
+            { field: "Version", title: "版本", width: 80, sortable: true, halign: true },
+            { field: "State", title: "状态", width: 60, sortable: true, halign: true }
+        ]];
+    </script>
+}

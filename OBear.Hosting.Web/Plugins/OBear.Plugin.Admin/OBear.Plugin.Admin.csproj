@@ -93,6 +93,9 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="UIShell.BundleManagementService">
+      <HintPath>..\UIShell.BundleManagementService\bin\UIShell.BundleManagementService.dll</HintPath>
+    </Reference>
     <Reference Include="UIShell.NavigationService">
       <HintPath>..\UIShell.NavigationService\bin\UIShell.NavigationService.dll</HintPath>
     </Reference>
@@ -117,6 +120,8 @@
     </Content>
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Welcome.cshtml" />
+    <Content Include="Views\Shared\_GridLayout.cshtml" />
+    <Content Include="Views\BundleManagement\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -410,6 +415,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BundleActivator.cs" />
+    <Compile Include="Controllers\BundleManagementController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Helper\BundleConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -427,6 +433,10 @@
     <ProjectReference Include="..\..\..\OBear.Utility\OBear.Utility.csproj">
       <Project>{fc21d616-5c49-4f07-b56a-b14a64091064}</Project>
       <Name>OBear.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\OBear.Web.NET45\OBear.Web.NET45.csproj">
+      <Project>{2c8b59af-ff5a-4fee-b58a-71e86ad4c3ba}</Project>
+      <Name>OBear.Web.NET45</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

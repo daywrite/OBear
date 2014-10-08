@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OBear.Utility
+namespace OBear.Web.NET45
 {
     public class Class1
     {
