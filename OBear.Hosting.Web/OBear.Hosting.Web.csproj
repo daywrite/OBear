@@ -183,6 +183,10 @@
       <Project>{7b3805a4-a1ed-435b-8bc5-19142e467e22}</Project>
       <Name>OBear.Plugin</Name>
     </ProjectReference>
+    <ProjectReference Include="..\OBear.Utility\OBear.Utility.csproj">
+      <Project>{fc21d616-5c49-4f07-b56a-b14a64091064}</Project>
+      <Name>OBear.Utility</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
