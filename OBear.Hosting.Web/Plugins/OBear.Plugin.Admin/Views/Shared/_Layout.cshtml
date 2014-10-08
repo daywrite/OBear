@@ -6,8 +6,8 @@
     <meta charset="utf-8" />
     <title>@ViewBag.Title - OBear管理系统</title>
 
-    @Styles.Render(OBear.Plugin.Mvc.BundleUrlHelper.Content(BundleActivator.Bundle, "~/Content/themes/gray/css"),
-                   OBear.Plugin.Mvc.BundleUrlHelper.Content(BundleActivator.Bundle, "~/Content/themes/css"),
+    @Styles.Render(BundleUrlHelper.Content(BundleActivator.Bundle, "~/Content/themes/gray/css"),
+                   BundleUrlHelper.Content(BundleActivator.Bundle, "~/Content/themes/css"),
                    "~/content/obear-icons")
     @Scripts.Render("~/bundles/jquery", "~/bundles/jqueryval", "~/bundles/others", "~/bundles/easyui")
     @RenderSection("header", false)
