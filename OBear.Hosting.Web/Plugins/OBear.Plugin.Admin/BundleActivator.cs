@@ -6,6 +6,8 @@ using System.Web;
 using UIShell.OSGi;
 using UIShell.PageFlowService;
 using OBear.Plugin.Mvc;
+using OBear.Plugin.Admin.Helper;
+using System.Web.Optimization;
 namespace OBear.Plugin.Admin
 {
     public class BundleActivator : IBundleActivator
@@ -20,6 +22,9 @@ namespace OBear.Plugin.Admin
             Bundle = context.Bundle;
             PageFlowServiceTracker = new ServiceTracker<IPageFlowService>(context);
             DefaultConfig.RegisterBundleNamespaces(context.Bundle.SymbolicName, GetType().Assembly);
+
+            //注册CSS和JS
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
 
         public void Stop(IBundleContext context)

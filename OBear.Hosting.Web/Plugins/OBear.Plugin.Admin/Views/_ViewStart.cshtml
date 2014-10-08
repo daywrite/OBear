@@ -1,3 +1,4 @@
-﻿@{
-    Layout = "~/Views/Shared/_Layout.cshtml";
+﻿@using OBear.Plugin.Mvc;
+@{
+    Layout = Url.BundleContent(BundleActivator.Bundle, "~/Views/Shared/_Layout.cshtml");
 }

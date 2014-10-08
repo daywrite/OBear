@@ -8,6 +8,10 @@ namespace OBear.Hosting.Web
         // For more information on bundling, visit http://go.microsoft.com/fwlink/?LinkId=301862
         public static void RegisterBundles(BundleCollection bundles)
         {
+            bundles.Add(new StyleBundle("~/Content/obear-icons").Include(
+              "~/Content/obear-icons.css"
+              ));
+
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
 
@@ -21,6 +25,12 @@ namespace OBear.Hosting.Web
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
+
+            //左边树形菜单
+            bundles.Add(new ScriptBundle("~/bundles/others").Include(
+                "~/Scripts/json2.js",
+                "~/Scripts/jquery.linq.js"
+                ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",

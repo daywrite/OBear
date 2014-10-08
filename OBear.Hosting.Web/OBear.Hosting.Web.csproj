@@ -105,6 +105,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Scripts\jquery.linq-vsdoc.js" />
+    <Content Include="Content\images\icon.png" />
+    <Content Include="Content\images\icons.png" />
+    <Content Include="Content\images\tools.png" />
+    <Content Include="Content\obear-icons.css" />
+    <Content Include="Scripts\jquery.linq.js" />
+    <Content Include="Scripts\jquery.linq.min.js" />
+    <Content Include="Scripts\json2.js" />
+    <Content Include="Scripts\json2.min.js" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
