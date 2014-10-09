@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="Autofac的IoC插件" SymbolicName="OBear.Plugin.IoC.Autofac" Version="1.0.0.0" InitializedState="Active" StartLevel="2">
+  <Activator Type="OBear.Plugin.IoC.Autofac.BundleActivator" Policy="Immediate" />
+  <Runtime>
+    <Assembly Path="bin\OBear.Plugin.IoC.Autofac.dll" Share="true" MultipleVersions="false" />
+    <Assembly Path="bin\Autofac.dll" Share="true" MultipleVersions="false" />
+    <Assembly Path="bin\Autofac.Integration.Mvc.dll" Share="true" MultipleVersions="false" />
+  </Runtime>
+</Bundle>
