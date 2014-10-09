@@ -28,6 +28,11 @@ namespace OBear.Hosting.Web
         protected override void Application_Start(object sender, EventArgs e)
         {
             Assembly hostAssembly = Assembly.GetExecutingAssembly();
+            //
+            Assembly[] hostDependencyAssemblies = hostAssembly.GetReferencedAssemblies()
+                .Where(m => m.Name.Contains("OBear")).Select(Assembly.Load).ToArray();
+            IoCBundleActivator.HostingAssemblyFunc = () => new[] { hostAssembly }.Union(hostDependencyAssemblies).ToArray();
+            //
             DefaultConfig.RegisterHostingNamespaces(hostAssembly);
             base.Application_Start(sender, e);
 

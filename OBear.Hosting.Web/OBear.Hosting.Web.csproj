@@ -130,6 +130,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
+    <Content Include="Views\Home\Data.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -187,6 +188,10 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\OBear.Core.NET45\OBear.Core.NET45.csproj">
+      <Project>{d165481e-8564-4db4-9bd4-7264ca31bfe5}</Project>
+      <Name>OBear.Core.NET45</Name>
+    </ProjectReference>
     <ProjectReference Include="..\OBear.Plugin\OBear.Plugin.csproj">
       <Project>{7b3805a4-a1ed-435b-8bc5-19142e467e22}</Project>
       <Name>OBear.Plugin</Name>
