@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBear.Core.NET45", "OBear.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBear.Plugin.IoC.Autofac", "OBear.Hosting.Web\Plugins\OBear.Plugin.IoC.Autofac\OBear.Plugin.IoC.Autofac.csproj", "{ACAEA27D-89C1-419D-A811-2B6AEFC13A90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBear.Core.Data.Entity.NET45", "OBear.Core.Data.Entity.NET45\OBear.Core.Data.Entity.NET45.csproj", "{FEE4033B-9025-46C2-AE2E-2D3FB27729D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{ACAEA27D-89C1-419D-A811-2B6AEFC13A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACAEA27D-89C1-419D-A811-2B6AEFC13A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACAEA27D-89C1-419D-A811-2B6AEFC13A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEE4033B-9025-46C2-AE2E-2D3FB27729D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEE4033B-9025-46C2-AE2E-2D3FB27729D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEE4033B-9025-46C2-AE2E-2D3FB27729D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEE4033B-9025-46C2-AE2E-2D3FB27729D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,5 +97,6 @@ Global
 		{8BAFEC13-82AE-4941-A243-D090B4C4EB2E} = {8AE139BC-C47A-4146-9AAF-B7CB2C2C8FB3}
 		{D165481E-8564-4DB4-9BD4-7264CA31BFE5} = {5863DEB7-8F07-40AC-9036-AC5C87C9FD62}
 		{ACAEA27D-89C1-419D-A811-2B6AEFC13A90} = {8BAFEC13-82AE-4941-A243-D090B4C4EB2E}
+		{FEE4033B-9025-46C2-AE2E-2D3FB27729D1} = {5863DEB7-8F07-40AC-9036-AC5C87C9FD62}
 	EndGlobalSection
 EndGlobal
