@@ -15000,3 +15000,404 @@ Fri, 10 Oct 2014 12:48:26 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   L
 Fri, 10 Oct 2014 12:48:26 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'admin' from bundle 'DemoPlugin' by using cache.
 Fri, 10 Oct 2014 12:48:29 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'admin' from bundle 'DemoPlugin' by using cache.
 Fri, 10 Oct 2014 12:48:29 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'admin' from bundle 'DemoPlugin' by using cache.
+Fri, 10 Oct 2014 13:28:18 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   WebSite is starting.
+Fri, 10 Oct 2014 13:28:18 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.OSGi, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261 to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:28:18 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Framework is starting.
+Fri, 10 Oct 2014 13:28:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The OSGi.NET global assembly feature is enabled. Thus, the duplicated assembly in local Assembly of Bundle will be replaced by the global assembly in 'bin' folder.
+Fri, 10 Oct 2014 13:28:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The local assembly 'UIShell.NavigationService, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e7429fb96767d50d' of bundle 'UIShell.NavigationService, 1.0.0.0' is replaced by global assembly 'UIShell.NavigationService, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e7429fb96767d50d'.
+Fri, 10 Oct 2014 13:28:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The local assembly 'UIShell.PermissionService, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e7429fb96767d50d' of bundle 'UIShell.PermissionService, 1.0.0.0' is replaced by global assembly 'UIShell.PermissionService, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e7429fb96767d50d'.
+Fri, 10 Oct 2014 13:28:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is starting.
+Fri, 10 Oct 2014 13:28:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.OSGi.XmlSerializers, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 10 Oct 2014 13:28:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:28:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'OBear.Plugin.IoC.Autofac, 1.0.0.0' is starting.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'OBear.Plugin.IoC.Autofac, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Autofac, Version=3.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Autofac.Integration.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'OBear.Plugin.IoC.Autofac' to top level referenced assemblies.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'OBear.Plugin.IoC.Autofac, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'Autofac.Integration.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'Autofac, Version=3.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'OBear.Plugin.IoC.Autofac' to top level referenced assemblies since the bundle is active.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'OBear.Plugin.IoC.Autofac, 1.0.0.0' is in state 'Active'.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is starting.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.RemotingManagement, Version=1.2.2.5, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is starting.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WebServiceWrapperService, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.WebServiceWrapperService' to top level referenced assemblies.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.WebServiceWrapperService, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261 to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.WebServiceWrapperService' to top level referenced assemblies since the bundle is active.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is in state 'Active'.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73'.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.RemotingManagement' to top level referenced assemblies.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.RemotingManagement, Version=1.2.2.5, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.RemotingManagement' to top level referenced assemblies since the bundle is active.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is in state 'Active'.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.5' is starting.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.BundleManagementService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 10 Oct 2014 13:28:22 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73'.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.iOpenWorks.BundleRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.BundleManagementService' to top level referenced assemblies.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.iOpenWorks.BundleRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261 to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.BundleManagementService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261 to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.BundleManagementService' to top level referenced assemblies since the bundle is active.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.5' is in state 'Active'.
+Fri, 10 Oct 2014 13:28:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.NavigationService, 1.0.0.0' is starting.
+Fri, 10 Oct 2014 13:28:23 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.NavigationService' to top level referenced assemblies.
+Fri, 10 Oct 2014 13:28:23 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.NavigationService' to top level referenced assemblies since the bundle is active.
+Fri, 10 Oct 2014 13:28:23 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.NavigationService, 1.0.0.0' is in state 'Active'.
+Fri, 10 Oct 2014 13:28:23 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.0' is starting.
+Fri, 10 Oct 2014 13:28:23 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.PageFlowService, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e7429fb96767d50d'.
+Fri, 10 Oct 2014 13:28:23 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.PageFlowService' to top level referenced assemblies.
+Fri, 10 Oct 2014 13:28:23 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.PageFlowService, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e7429fb96767d50d to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:28:23 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.PageFlowService' to top level referenced assemblies since the bundle is active.
+Fri, 10 Oct 2014 13:28:23 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.0' is in state 'Active'.
+Fri, 10 Oct 2014 13:28:23 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PermissionService, 1.0.0.0' is starting.
+Fri, 10 Oct 2014 13:28:23 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.PermissionService' to top level referenced assemblies.
+Fri, 10 Oct 2014 13:28:23 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.PermissionService' to top level referenced assemblies since the bundle is active.
+Fri, 10 Oct 2014 13:28:23 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PermissionService, 1.0.0.0' is in state 'Active'.
+Fri, 10 Oct 2014 13:28:23 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is starting.
+Fri, 10 Oct 2014 13:28:23 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is in state 'Active'.
+Fri, 10 Oct 2014 13:28:23 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AdminPlugin, 1.0.0.3' is starting.
+Fri, 10 Oct 2014 13:28:23 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'OBear.Plugin.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:28:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'AdminPlugin' to top level referenced assemblies.
+Fri, 10 Oct 2014 13:28:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'OBear.Plugin.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:28:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'AdminPlugin' to top level referenced assemblies since the bundle is active.
+Fri, 10 Oct 2014 13:28:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AdminPlugin, 1.0.0.3' is in state 'Active'.
+Fri, 10 Oct 2014 13:28:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'DemoPlugin, 1.0.0.1' is starting.
+Fri, 10 Oct 2014 13:28:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'OBear.Plugin.Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'DemoPlugin' to top level referenced assemblies.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'OBear.Plugin.Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'DemoPlugin' to top level referenced assemblies since the bundle is active.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'DemoPlugin, 1.0.0.1' is in state 'Active'.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'OBear.Plugin.Demo.Services, 1.0.0.1' is starting.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'OBear.Plugin.Demo.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'OBear.Utility.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'OBear.Utility.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'OBear.Utility.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'OBear.Utility.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'OBear.Utility.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'OBear.Utility.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'OBear.Utility.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'OBear.Utility.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'OBear.Plugin.Demo.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AutoMapper, Version=2.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005'.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'OBear.Plugin.Demo.Services' to top level referenced assemblies.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'OBear.Plugin.Demo.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'OBear.Plugin.Demo.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AutoMapper, Version=2.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005 to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'OBear.Plugin.Demo.Services' to top level referenced assemblies since the bundle is active.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'OBear.Plugin.Demo.Services, 1.0.0.1' is in state 'Active'.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is in state 'Active'.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Framework is started.
+Fri, 10 Oct 2014 13:28:43 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   WebSite is started.
+Fri, 10 Oct 2014 13:28:44 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-CN, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-CN, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-CHS, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-CHS, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ServiceModel.Internals, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-Hans, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-Hans, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Runtime.DurableInstancing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Build.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:44 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Workflow.ComponentModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:28:45 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Workflow.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:28:45 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Workflow.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:28:45 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:28:45 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:28:45 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Data.SqlXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:28:45 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Data.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:28:46 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Xaml.Hosting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:28:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.VisualBasic.Activities.Compiler, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Fri, 10 Oct 2014 13:28:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Mvc.resources, Version=5.2.2.0, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:28:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Mvc.resources, Version=5.2.2.0, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:28:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Mvc.resources, Version=5.2.2.0, Culture=zh-CHS, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:28:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Mvc.resources, Version=5.2.2.0, Culture=zh-CHS, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:28:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Mvc.resources, Version=5.2.2.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:28:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b03f5f7f11d50a3a'.
+Fri, 10 Oct 2014 13:28:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:28:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Data.OracleClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:28:48 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:48 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:48 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:48 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:48 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:48 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:48 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:48 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:28:48 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Home' from bundle '' by using cache.
+Fri, 10 Oct 2014 13:28:49 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Fri, 10 Oct 2014 13:28:49 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Razor.resources, Version=3.0.0.0, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:28:49 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Razor.resources, Version=3.0.0.0, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:28:49 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Razor.resources, Version=3.0.0.0, Culture=zh-CHS, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:28:49 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Razor.resources, Version=3.0.0.0, Culture=zh-CHS, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:28:49 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Razor.resources, Version=3.0.0.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:28:57 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_hvv44acp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:29:04 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_yemz4cww, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:29:04 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Dynamic, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Fri, 10 Oct 2014 13:29:04 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.CSharp.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b03f5f7f11d50a3a'.
+Fri, 10 Oct 2014 13:29:12 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_sj0i5geq, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:29:12 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:29:12 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:29:12 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-CHS, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:29:12 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-CHS, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:29:12 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:29:12 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:29:12 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:29:12 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:29:13 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:29:13 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:29:13 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-CHS, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:29:13 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-CHS, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:29:13 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:29:13 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:29:13 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:29:13 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:29:13 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.VisualStudio.Web.PageInspector.HtmlParser, Version=12.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Fri, 10 Oct 2014 13:29:32 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Home' from bundle 'AdminPlugin' and then added to cache.
+Fri, 10 Oct 2014 13:29:32 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Home' from bundle 'AdminPlugin' by using cache.
+Fri, 10 Oct 2014 13:29:36 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_1zveokcf, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:29:39 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_fjlaycst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:29:43 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_truzmscm, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:29:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Home' from bundle 'AdminPlugin' by using cache.
+Fri, 10 Oct 2014 13:29:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Home' from bundle 'AdminPlugin' by using cache.
+Fri, 10 Oct 2014 13:29:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Home' from bundle 'AdminPlugin' by using cache.
+Fri, 10 Oct 2014 13:29:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Home' from bundle 'AdminPlugin' by using cache.
+Fri, 10 Oct 2014 13:29:48 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Dectect that the framework is in 'Started' state.
+Fri, 10 Oct 2014 13:30:35 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'BundleManagement' from bundle 'AdminPlugin' and then added to cache.
+Fri, 10 Oct 2014 13:30:35 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'BundleManagement' from bundle 'AdminPlugin' by using cache.
+Fri, 10 Oct 2014 13:30:39 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_dtle4sce, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:30:41 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'BundleManagement' from bundle 'AdminPlugin' by using cache.
+Fri, 10 Oct 2014 13:30:41 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'BundleManagement' from bundle 'AdminPlugin' by using cache.
+Fri, 10 Oct 2014 13:30:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'admin' from bundle 'DemoPlugin' and then added to cache.
+Fri, 10 Oct 2014 13:30:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'admin' from bundle 'DemoPlugin' by using cache.
+Fri, 10 Oct 2014 13:30:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-CN, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:30:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-CN, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:30:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-CHS, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:30:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-CHS, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:30:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-Hans, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:30:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-Hans, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:30:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:30:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:30:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-CN, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:30:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-CN, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:30:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-CHS, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:30:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-CHS, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:30:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-Hans, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:30:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-Hans, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:30:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:30:45 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:30:46 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.VisualStudio.Debugger.Runtime, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Fri, 10 Oct 2014 13:35:14 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   WebSite is starting.
+Fri, 10 Oct 2014 13:35:14 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.OSGi, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261 to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:35:15 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Framework is starting.
+Fri, 10 Oct 2014 13:35:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The OSGi.NET global assembly feature is enabled. Thus, the duplicated assembly in local Assembly of Bundle will be replaced by the global assembly in 'bin' folder.
+Fri, 10 Oct 2014 13:35:17 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The local assembly 'UIShell.NavigationService, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e7429fb96767d50d' of bundle 'UIShell.NavigationService, 1.0.0.0' is replaced by global assembly 'UIShell.NavigationService, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e7429fb96767d50d'.
+Fri, 10 Oct 2014 13:35:17 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The local assembly 'UIShell.PermissionService, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e7429fb96767d50d' of bundle 'UIShell.PermissionService, 1.0.0.0' is replaced by global assembly 'UIShell.PermissionService, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e7429fb96767d50d'.
+Fri, 10 Oct 2014 13:35:17 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is starting.
+Fri, 10 Oct 2014 13:35:17 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.OSGi.XmlSerializers, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'OBear.Plugin.IoC.Autofac, 1.0.0.0' is starting.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'OBear.Plugin.IoC.Autofac, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Autofac, Version=3.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Autofac.Integration.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'OBear.Plugin.IoC.Autofac' to top level referenced assemblies.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'OBear.Plugin.IoC.Autofac, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'Autofac.Integration.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'Autofac, Version=3.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'OBear.Plugin.IoC.Autofac' to top level referenced assemblies since the bundle is active.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'OBear.Plugin.IoC.Autofac, 1.0.0.0' is in state 'Active'.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is starting.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.RemotingManagement, Version=1.2.2.5, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is starting.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WebServiceWrapperService, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.WebServiceWrapperService' to top level referenced assemblies.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.WebServiceWrapperService, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261 to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.WebServiceWrapperService' to top level referenced assemblies since the bundle is active.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is in state 'Active'.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73'.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.RemotingManagement' to top level referenced assemblies.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.RemotingManagement, Version=1.2.2.5, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73 to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.RemotingManagement' to top level referenced assemblies since the bundle is active.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is in state 'Active'.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.5' is starting.
+Fri, 10 Oct 2014 13:35:18 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.BundleManagementService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 10 Oct 2014 13:35:19 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73'.
+Fri, 10 Oct 2014 13:35:19 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.iOpenWorks.BundleRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.BundleManagementService' to top level referenced assemblies.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.iOpenWorks.BundleRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261 to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.BundleManagementService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261 to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.BundleManagementService' to top level referenced assemblies since the bundle is active.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.5' is in state 'Active'.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.NavigationService, 1.0.0.0' is starting.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.NavigationService' to top level referenced assemblies.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.NavigationService' to top level referenced assemblies since the bundle is active.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.NavigationService, 1.0.0.0' is in state 'Active'.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.0' is starting.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.PageFlowService, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e7429fb96767d50d'.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.PageFlowService' to top level referenced assemblies.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'UIShell.PageFlowService, Version=1.2.0.0, Culture=neutral, PublicKeyToken=e7429fb96767d50d to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.PageFlowService' to top level referenced assemblies since the bundle is active.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.0' is in state 'Active'.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PermissionService, 1.0.0.0' is starting.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.PermissionService' to top level referenced assemblies.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'UIShell.PermissionService' to top level referenced assemblies since the bundle is active.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PermissionService, 1.0.0.0' is in state 'Active'.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is starting.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is in state 'Active'.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AdminPlugin, 1.0.0.3' is starting.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'OBear.Plugin.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'AdminPlugin' to top level referenced assemblies.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'OBear.Plugin.Admin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'AdminPlugin' to top level referenced assemblies since the bundle is active.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'AdminPlugin, 1.0.0.3' is in state 'Active'.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'DemoPlugin, 1.0.0.1' is starting.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'OBear.Plugin.Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'DemoPlugin' to top level referenced assemblies.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'OBear.Plugin.Demo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'DemoPlugin' to top level referenced assemblies since the bundle is active.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'DemoPlugin, 1.0.0.1' is in state 'Active'.
+Fri, 10 Oct 2014 13:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'OBear.Plugin.Demo.Services, 1.0.0.1' is starting.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'OBear.Plugin.Demo.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'OBear.Utility.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'OBear.Utility.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'OBear.Utility.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'OBear.Utility.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'OBear.Utility.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'OBear.Utility.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'OBear.Utility.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'OBear.Utility.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'OBear.Plugin.Demo.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'AutoMapper, Version=2.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'OBear.Plugin.Demo.Services' to top level referenced assemblies.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'OBear.Plugin.Demo.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'OBear.Plugin.Demo.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add assembly 'AutoMapper, Version=2.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005 to top level referenced assemblies.'
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Add the assemblies of bundle 'OBear.Plugin.Demo.Services' to top level referenced assemblies since the bundle is active.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'OBear.Plugin.Demo.Services, 1.0.0.1' is in state 'Active'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is in state 'Active'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Framework is started.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   WebSite is started.
+Fri, 10 Oct 2014 13:35:20 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-CN, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-CN, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-CHS, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-CHS, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-Hans, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.ServiceModel.Internals, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh-Hans, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |EventDispatcherThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac.resources, Version=3.0.0.0, Culture=zh, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Runtime.DurableInstancing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Fri, 10 Oct 2014 13:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Fri, 10 Oct 2014 13:35:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:35:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Build.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Fri, 10 Oct 2014 13:35:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:21 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Workflow.ComponentModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Workflow.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Workflow.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:35:23 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:23 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Data.SqlXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:35:23 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Data.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:35:23 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Xaml.Hosting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:24 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.VisualBasic.Activities.Compiler, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Fri, 10 Oct 2014 13:35:24 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Mvc.resources, Version=5.2.2.0, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:24 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Mvc.resources, Version=5.2.2.0, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:24 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Mvc.resources, Version=5.2.2.0, Culture=zh-CHS, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:24 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Mvc.resources, Version=5.2.2.0, Culture=zh-CHS, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:24 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Mvc.resources, Version=5.2.2.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b03f5f7f11d50a3a'.
+Fri, 10 Oct 2014 13:35:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:35:25 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Data.OracleClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:35:25 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:25 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:25 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:25 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:25 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:25 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:25 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:25 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'Autofac, Version=3.3.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da'.
+Fri, 10 Oct 2014 13:35:25 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Home' from bundle '' by using cache.
+Fri, 10 Oct 2014 13:35:26 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Mobile, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Fri, 10 Oct 2014 13:35:27 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Razor.resources, Version=3.0.0.0, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:27 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Razor.resources, Version=3.0.0.0, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:27 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Razor.resources, Version=3.0.0.0, Culture=zh-CHS, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:27 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'System.Web.Razor.resources, Version=3.0.0.0, Culture=zh-CHS, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:27 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Web.Razor.resources, Version=3.0.0.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:34 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_nhifxw4l, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:35:42 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_l11jrexq, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:35:42 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Dynamic, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Fri, 10 Oct 2014 13:35:42 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.CSharp.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b03f5f7f11d50a3a'.
+Fri, 10 Oct 2014 13:35:50 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_tnqfpanu, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:35:50 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:50 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:50 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-CHS, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:50 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-CHS, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:50 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:50 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:50 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:50 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:51 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:51 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-CN, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:51 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-CHS, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:51 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-CHS, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:51 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:51 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:51 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:51 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'WebGrease.resources, Version=1.5.2.14234, Culture=zh, PublicKeyToken=31bf3856ad364e35'.
+Fri, 10 Oct 2014 13:35:51 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.VisualStudio.Web.PageInspector.HtmlParser, Version=12.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+Fri, 10 Oct 2014 13:35:54 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Home' from bundle 'AdminPlugin' and then added to cache.
+Fri, 10 Oct 2014 13:35:54 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Home' from bundle 'AdminPlugin' by using cache.
+Fri, 10 Oct 2014 13:36:01 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_sbbiynr2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:36:09 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_ek51sxvg, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:36:17 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_favbpqju, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:36:18 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Home' from bundle 'AdminPlugin' by using cache.
+Fri, 10 Oct 2014 13:36:18 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Home' from bundle 'AdminPlugin' by using cache.
+Fri, 10 Oct 2014 13:36:19 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Home' from bundle 'AdminPlugin' by using cache.
+Fri, 10 Oct 2014 13:36:19 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Home' from bundle 'AdminPlugin' by using cache.
+Fri, 10 Oct 2014 13:36:19 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Home' from bundle 'AdminPlugin' by using cache.
+Fri, 10 Oct 2014 13:36:19 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'Home' from bundle 'AdminPlugin' by using cache.
+Fri, 10 Oct 2014 13:36:25 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'admin' from bundle 'DemoPlugin' and then added to cache.
+Fri, 10 Oct 2014 13:36:25 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'admin' from bundle 'DemoPlugin' by using cache.
+Fri, 10 Oct 2014 13:36:32 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_pfrsygep, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:36:39 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'App_Web_4ekjo0m5, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 10 Oct 2014 13:36:42 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'admin' from bundle 'DemoPlugin' by using cache.
+Fri, 10 Oct 2014 13:36:42 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Loaded controller 'admin' from bundle 'DemoPlugin' by using cache.
+Fri, 10 Oct 2014 13:36:47 GMT|   |No Thread Name|UIShell.OSGi.Logger|Inform|   Dectect that the framework is in 'Started' state.
+Fri, 10 Oct 2014 13:36:51 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh-CN, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:36:51 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh-CN, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:36:51 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh-CHS, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:36:51 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh-CHS, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:36:51 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:36:51 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:36:51 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:36:51 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'EntityFramework.resources, Version=6.0.0.0, Culture=zh, PublicKeyToken=b77a5c561934e089'.
+Fri, 10 Oct 2014 13:37:01 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Xml.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089'.

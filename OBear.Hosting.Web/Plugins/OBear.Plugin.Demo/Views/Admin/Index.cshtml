@@ -1,17 +1,18 @@
 ﻿@{
-    Layout = null;
+    Layout = Url.Content(BundleActivator.GridLayoutPageNode.Value);
+    ViewBag.Title = "示例列表";
+    ViewBag.GridId = "demo-entity";
+    ViewBag.GridDataUrl = Url.Action("GetGridData");
+    //ViewBag.ToolbarItem = string.Empty;
+    ViewBag.fit = "true";
 }
-
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title></title>
-</head>
-<body>
-    <div>
-        这是我的第一个插件！
-    </div>
-</body>
-</html>
+@section customScript{
+    <script type="text/javascript">
+        columns = [[
+                 { field: "Id", title: "编号", width: 50, halign: "center", align: "right", sortable: true },
+                 { field: "Name", title: "名称", width: 200, sortable: true },
+                 { field: "Remark", title: "备注", width: 500, sortable: true },
+                 { field: "CreatedTime", title: "创建时间", width: 150, sortable: true }
+        ]];
+    </script>
+}

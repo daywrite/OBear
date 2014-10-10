@@ -4,6 +4,10 @@
   <Runtime>
     <Assembly Path="bin\OBear.Plugin.Admin.dll" Share="false" MultipleVersions="false" />  
   </Runtime>
+  <Extension Point="PageFlowService.PageNode">
+    <PageNode Name="LayoutPage" Priority="30" Value="~/{BundleRelativePath}/Views/Shared/_Layout.cshtml" />
+    <PageNode Name="GridLayoutPage" Priority="30" Value="~/{BundleRelativePath}/Views/Shared/_GridLayout.cshtml" />
+  </Extension>
   <Extension Point="UIShell.NavigationService">
     <Node Name="管理" Location="前台.主导航" Order="1" ToolTip="点击进入后台管理" Value="/admin" />
   </Extension>

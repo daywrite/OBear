@@ -128,9 +128,25 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\OBear.Core.NET45\OBear.Core.NET45.csproj">
+      <Project>{d165481e-8564-4db4-9bd4-7264ca31bfe5}</Project>
+      <Name>OBear.Core.NET45</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\OBear.Plugin\OBear.Plugin.csproj">
       <Project>{7b3805a4-a1ed-435b-8bc5-19142e467e22}</Project>
       <Name>OBear.Plugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\OBear.Utility\OBear.Utility.csproj">
+      <Project>{fc21d616-5c49-4f07-b56a-b14a64091064}</Project>
+      <Name>OBear.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\OBear.Web.NET45\OBear.Web.NET45.csproj">
+      <Project>{2c8b59af-ff5a-4fee-b58a-71e86ad4c3ba}</Project>
+      <Name>OBear.Web.NET45</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OBear.Plugin.Demo.Contracts\OBear.Plugin.Demo.Contracts.csproj">
+      <Project>{90e3f632-5e14-4d68-a56d-d57ce20c6f87}</Project>
+      <Name>OBear.Plugin.Demo.Contracts</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

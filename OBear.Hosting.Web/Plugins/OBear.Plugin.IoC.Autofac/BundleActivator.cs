@@ -15,7 +15,7 @@ using Autofac.Integration.Mvc;
 
 using OBear.Core;
 using OBear.Core.Data;
-//using OSharp.Core.Data.Entity;
+using OBear.Core.Data.Entity;
 using OBear.Plugin.Mvc;
 
 using UIShell.OSGi;
@@ -29,7 +29,7 @@ namespace OBear.Plugin.IoC.Autofac
         public BundleActivator()
         {
             _builder = new ContainerBuilder();
-            //_builder.RegisterGeneric(typeof(Repository<,>)).As(typeof(IRepository<,>));
+            _builder.RegisterGeneric(typeof(Repository<,>)).As(typeof(IRepository<,>));
         }
 
         protected override void RegisterController(Assembly[] assemblies)

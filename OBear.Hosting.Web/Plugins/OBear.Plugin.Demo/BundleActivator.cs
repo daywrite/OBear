@@ -15,12 +15,17 @@ namespace OBear.Plugin.Demo
     {
         public static IBundle Bundle { get; private set; }
 
-        public static ServiceTracker<IPageFlowService> PageFlowServiceTracker { get; set; }        
+        public static ServiceTracker<IPageFlowService> PageFlowServiceTracker { get; set; }
 
-        //public static PageNode LayoutPageNode
-        //{
-        //    get { return PageFlowServiceTracker.DefaultOrFirstService.GetPageNode("LayoutPage"); }
-        //}
+        public static PageNode LayoutPageNode
+        {
+            get { return PageFlowServiceTracker.DefaultOrFirstService.GetPageNode("LayoutPage"); }
+        }
+
+        public static PageNode GridLayoutPageNode
+        {
+            get { return PageFlowServiceTracker.DefaultOrFirstService.GetPageNode("GridLayoutPage"); }
+        }
 
         public void Start(IBundleContext context)
         {

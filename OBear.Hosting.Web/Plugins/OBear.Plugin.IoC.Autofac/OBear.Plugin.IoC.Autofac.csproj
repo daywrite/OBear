@@ -91,6 +91,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\OBear.Core.Data.Entity.NET45\OBear.Core.Data.Entity.NET45.csproj">
+      <Project>{fee4033b-9025-46c2-ae2e-2d3fb27729d1}</Project>
+      <Name>OBear.Core.Data.Entity.NET45</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\OBear.Core.NET45\OBear.Core.NET45.csproj">
       <Project>{d165481e-8564-4db4-9bd4-7264ca31bfe5}</Project>
       <Name>OBear.Core.NET45</Name>
