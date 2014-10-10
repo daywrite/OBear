@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBear.Plugin.IoC.Autofac", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBear.Core.Data.Entity.NET45", "OBear.Core.Data.Entity.NET45\OBear.Core.Data.Entity.NET45.csproj", "{FEE4033B-9025-46C2-AE2E-2D3FB27729D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBear.Plugin.Demo.Contracts", "OBear.Hosting.Web\Plugins\OBear.Plugin.Demo.Contracts\OBear.Plugin.Demo.Contracts.csproj", "{90E3F632-5E14-4D68-A56D-D57CE20C6F87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBear.Plugin.Demo.Services", "OBear.Hosting.Web\Plugins\OBear.Plugin.Demo.Services\OBear.Plugin.Demo.Services.csproj", "{EB064688-DCB6-4401-9FF5-471495B40595}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{FEE4033B-9025-46C2-AE2E-2D3FB27729D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEE4033B-9025-46C2-AE2E-2D3FB27729D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEE4033B-9025-46C2-AE2E-2D3FB27729D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90E3F632-5E14-4D68-A56D-D57CE20C6F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90E3F632-5E14-4D68-A56D-D57CE20C6F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90E3F632-5E14-4D68-A56D-D57CE20C6F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90E3F632-5E14-4D68-A56D-D57CE20C6F87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB064688-DCB6-4401-9FF5-471495B40595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB064688-DCB6-4401-9FF5-471495B40595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB064688-DCB6-4401-9FF5-471495B40595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB064688-DCB6-4401-9FF5-471495B40595}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,5 +110,7 @@ Global
 		{D165481E-8564-4DB4-9BD4-7264CA31BFE5} = {5863DEB7-8F07-40AC-9036-AC5C87C9FD62}
 		{ACAEA27D-89C1-419D-A811-2B6AEFC13A90} = {8BAFEC13-82AE-4941-A243-D090B4C4EB2E}
 		{FEE4033B-9025-46C2-AE2E-2D3FB27729D1} = {5863DEB7-8F07-40AC-9036-AC5C87C9FD62}
+		{90E3F632-5E14-4D68-A56D-D57CE20C6F87} = {374F9E9C-F68E-467C-8B23-F6B2DDA75B78}
+		{EB064688-DCB6-4401-9FF5-471495B40595} = {374F9E9C-F68E-467C-8B23-F6B2DDA75B78}
 	EndGlobalSection
 EndGlobal

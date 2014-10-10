@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using OBear.Core.Data;
 
-namespace OBear.Core.NET45
+namespace OBear.Core
 {
     /// <summary>
     /// 业务实现基类

@@ -88,7 +88,7 @@ namespace OBear.Core.Data.Entity
                 }
             }
         }
-#if NET45
+//#if NET45
 
         #region Overrides of DbContext
 
@@ -115,11 +115,11 @@ namespace OBear.Core.Data.Entity
             {
                 Configuration.ValidateOnSaveEnabled = validateOnSaveEnabled;
                 //记录实体操作日志
-                List<OperatingLog> logs = (await this.GetEntityOperateLogsAsync()).ToList();
+                //List<OperatingLog> logs = (await this.GetEntityOperateLogsAsync()).ToList();
                 int count = await base.SaveChangesAsync();
                 if (count > 0)
                 {
-                    Logger.Info(logs);
+                    //Logger.Info(logs);
                 }
                 TransactionEnabled = false;
                 return count;
@@ -142,7 +142,7 @@ namespace OBear.Core.Data.Entity
                 }
             }
         }
-#endif
+//#endif
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             //移除一对多的级联删除

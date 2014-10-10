@@ -37,7 +37,7 @@ namespace OBear.Core.Data
         /// <returns>操作影响的行数</returns>
         int SaveChanges();
 
-#if NET45
+//#if NET45
 
         /// <summary>
         /// 异步提交当前单元操作的更改。
@@ -45,7 +45,7 @@ namespace OBear.Core.Data
         /// <returns>操作影响的行数</returns>
         Task<int> SaveChangesAsync();
 
-#endif
+//#endif
 
         #endregion
     }

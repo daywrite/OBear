@@ -192,7 +192,7 @@ namespace OBear.Core.Data.Entity
             return source;
         }
 
-#if NET45
+//#if NET45
 
         /// <summary>
         /// 异步插入实体
@@ -321,7 +321,7 @@ namespace OBear.Core.Data.Entity
             return await _dbSet.FindAsync(key);
         }
 
-#endif
+//#endif
 
         #region 私有方法
 
@@ -330,14 +330,14 @@ namespace OBear.Core.Data.Entity
             return _unitOfWork.TransactionEnabled ? 0 : _unitOfWork.SaveChanges();
         }
 
-#if NET45
+//#if NET45
 
         private async Task<int> SaveChangesAsync()
         {
             return _unitOfWork.TransactionEnabled ? 0 : await _unitOfWork.SaveChangesAsync();
         }
 
-#endif
+//#endif
 
         private static void CheckEntityKey(object key, string keyName)
         {

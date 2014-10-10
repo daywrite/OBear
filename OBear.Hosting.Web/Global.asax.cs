@@ -6,7 +6,12 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
+//using OBear.Core.Context;
+using OBear.Core.Data.Entity;
+//using OBear.Core.Logging;
 using OBear.Plugin.Mvc;
+using OBear.Utility.Extensions;
+using OBear.Web.Mvc.Filters;
 
 using UIShell.NavigationService;
 using System.Reflection;
@@ -35,7 +40,8 @@ namespace OBear.Hosting.Web
             //
             DefaultConfig.RegisterHostingNamespaces(hostAssembly);
             base.Application_Start(sender, e);
-
+            //数据库生成
+            DatabaseInitializer.Initialize();
             //给菜单赋值
             NavigationNodes = NavigationInitialize();
         }

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="Demo示例插件服务" SymbolicName="OBear.Plugin.Demo.Services" Version="1.0.0.1" InitializedState="Active">
+  <Activator Type="OBear.Plugin.Demo.Services.BundleActivator" Policy="Immediate" />
+  <Runtime>
+    <Assembly Path="OBear.Plugin.Demo.Services.dll" Share="true" MultipleVersions="false" />
+    <Assembly Path="OBear.Plugin.Demo.Contracts.dll" Share="true" MultipleVersions="false" />
+    <Assembly Path="AutoMapper.dll" Share="true" MultipleVersions="false" />
+  </Runtime>
+</Bundle>

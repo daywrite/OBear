@@ -118,7 +118,7 @@ namespace OBear.Core.Data
         /// <returns>查询数据集</returns>
         IQueryable<TEntity> GetIncludes(params string[] paths);
 
-#if NET45
+//#if NET45
     /// <summary>
     /// 异步插入实体
     /// </summary>
@@ -183,7 +183,7 @@ namespace OBear.Core.Data
         /// <param name="key">实体主键</param>
         /// <returns>符合主键的实体，不存在时返回null</returns>
         Task<TEntity> GetByKeyAsync(TKey key);
-#endif
+//#endif
 
         #endregion
     }
