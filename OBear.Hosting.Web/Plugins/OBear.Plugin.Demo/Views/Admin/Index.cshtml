@@ -16,7 +16,7 @@
     @section customScript{
         <script type="text/javascript">
             columns = [[
-                     { field: "Id", title: "编号", width: 50, halign: "center", align:'center', sortable: true },
+                     { field: "Id", title: "标识", width: 80, hidden: true },                   
                      { field: "Name", title: "名称", width: 200, sortable: true },
                      { field: "Remark", title: "备注", width: 500, sortable: true },
                      { field: "CreatedTime", title: "创建时间", width: 150, sortable: true }
@@ -43,6 +43,8 @@
             $("#Name").val(selected.Name);
             //备注
             $("#Remark").val(selected.Remark);
+            //标识
+            $("#Id").val(selected.Id);
         }
     </script>
 </head>
@@ -64,6 +66,7 @@
     </div>
     <div id="dd_dg" style=" display:none">
         <form id="fm_dg">
+            <input type="hidden" id="Id" name="Id" value="0" />
             <table cellpadding="1" cellspacing="1" border="1">
                 <tr>
                     <td>

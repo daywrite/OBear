@@ -48,41 +48,102 @@
                             });
                         }
                     },
-                        {
-                            text: "取消",
-                            iconCls: "icon-cancel",
-                            handler: function () {
-                                $("#dd_dg").window("close");
+                            {
+                                text: "取消",
+                                iconCls: "icon-cancel",
+                                handler: function () {
+                                    $("#dd_dg").window("close");
+                                }
                             }
-                        }
                 ]
             });
         }
         //修改handler
-        var editOldRow = function edit_dg() { }
+        var editOldRow = function edit_dg() {
+            //表单清空
+            //$("#fm_dg")[0].reset();
+            //EditClearValue();
+            //选中一行，获取这一行的属性的值
+            var selected = $("#grid-@ViewBag.GridId").datagrid('getSelected');
+            //判断是否选中
+            if (selected != null) {
+                //给文本框赋值
+                MakeValue(selected);
+
+                $("#dd_dg").show();
+                $("#dd_dg").dialog({
+                    title: "@ViewBag.Title",
+                    iconCls: "icon-edit",
+                    modal: true, //遮罩层
+                    width: "@ViewBag.dialogWidth",
+                    height: "@ViewBag.dialogHeight",
+                    buttons: [
+                        {
+                            text: "编辑",
+                            iconCls: "icon-edit",
+                            handler: function () {
+                                var objs = $.obear.tools.formToJson($("#fm_dg"));
+                                $.post("@ViewBag.EditUrl", { "action": "edit", models: '[' + JSON.stringify(objs) + ']' }, function (data) {
+                                    $.messager.alert('提示', data.Content);
+                                    $("#grid-@ViewBag.GridId").datagrid("reload");
+                                    $("#dd_dg").window("close");
+                                });
+                            }
+                        },
+                            {
+                                text: "取消",
+                                iconCls: "icon-cancel",
+                                handler: function () {
+                                    $("#dd_dg").window('close');
+                                }
+                            }
+                    ]
+                });
+            } else {
+                $.messager.alert('提示', '请选中一行在进行编辑');
+            }
+
+        }
         //删除handler
-        var deleteOldRow = function delete_dg() { }
+        var deleteOldRow = function delete_dg() {
+            var selected = $("#grid-@ViewBag.GridId").datagrid('getSelected');
+            if (selected != null) {
+                $.messager.confirm('提示', '是否确定要删除？', function (y) {
+                    if (y) {
+                        var v = "";
+                        var checked = $("#grid-@ViewBag.GridId").datagrid('getChecked');
+                        var ids = $.Enumerable.From(checked).Select(function (m) { return m.Id; }).ToArray();
+                        $.post("@ViewBag.DeleteUrl", { "action": "del", ids: JSON.stringify(ids) }, function (data) {
+                            $.messager.alert('提示', data.Content);
+                            $("#grid-@ViewBag.GridId").datagrid('reload');
+                        });
+                    }
+                });
+            } else {
+                $.messager.alert('提示', '您还没有选中一行数，请选中在删除！');
+            }
+        }
         //上侧操作按钮
         var toolbarData = [
             @if (toolbarItem.Contains("query"))
             {
                 @:{ text: "查询", iconCls: "icon-search", handler: queryRows },
-            }
-    @if (toolbarItem.Contains("add"))
+                    }
+                @if (toolbarItem.Contains("add"))
             {
                 @:{ text: "添加", iconCls: "icon-add", handler: addNewRow },
-            }
-    @if (toolbarItem.Contains("edit"))
+                    }
+                @if (toolbarItem.Contains("edit"))
             {
                 <text>
-    { text: "编辑", iconCls: "icon-edit", handler: editOldRow },
-        "-",
-        </text>
+                { text: "编辑", iconCls: "icon-edit", handler: editOldRow },
+                "-",
+                </text>
             }
-    @if (toolbarItem.Contains("delete"))
+                @if (toolbarItem.Contains("delete"))
             {
                 @:{ text: "删除", iconCls: "icon-cancel", handler: deleteOldRow },
-            }
+                    }
         ];
     </script>
     @RenderSection("customScript", false)
