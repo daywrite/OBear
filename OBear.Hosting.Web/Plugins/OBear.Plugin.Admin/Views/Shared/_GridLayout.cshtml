@@ -1,11 +1,89 @@
 ﻿@{
     Layout = Url.BundleContent(BundleActivator.Bundle, "~/Views/Shared/_Layout.cshtml");
-    string toolbarItem = ViewBag.ToolbarItem ?? "add,edit,save,cancel,delete";
+    string toolbarItem = ViewBag.ToolbarItem ?? "query,add,edit,delete";
 }
 @section footer{
     <script type="text/javascript">
         //要绑定的列对象
         var columns = [[]];
+        //查询
+        var queryRows = function query_dg() {
+
+            var o = queryVaule();
+
+            $("#grid-@ViewBag.GridId").datagrid('options').queryParams.where = JSON.stringify(o);
+            //重新加载datagrid
+            $("#grid-@ViewBag.GridId").datagrid('reload');
+        }
+        //添加handler
+        var addNewRow = function () {
+            //表单清空
+            //AddClearValue();
+            //显示
+            $("#dd_dg").show();
+            //以窗体的形式展示
+            $("#dd_dg").dialog({
+                title: "@ViewBag.Title",//标题
+                iconCls: "icon-add",//图标
+                width: "@ViewBag.dialogWidth",//窗体的宽度
+                height: "@ViewBag.dialogHeight",//窗体的高度
+                modal: true, //遮罩层
+                //按钮集合
+                buttons: [
+                    {
+                        text: "添加",//添加按钮的文本值
+                        iconCls: "icon-ok", //添加按钮的图标
+                        handler: function () {
+                            //if (!Check()) {
+                            //    return false;
+                            //}
+                            //将数据序列化
+                            var parm = $.obear.tools.formToJson($("#fm_dg"));
+                            $.post("@ViewBag.AddUrl", { "action": "add", models: '[' + JSON.stringify(parm) + ']' }, function (data) {
+                                $.messager.alert('提示', data.Content);
+                                //重新加载datagrid
+                                $("#grid-@ViewBag.GridId").datagrid('reload');
+                                //关闭
+                                $("#dd_dg").window('close');
+                            });
+                        }
+                    },
+                        {
+                            text: "取消",
+                            iconCls: "icon-cancel",
+                            handler: function () {
+                                $("#dd_dg").window("close");
+                            }
+                        }
+                ]
+            });
+        }
+        //修改handler
+        var editOldRow = function edit_dg() { }
+        //删除handler
+        var deleteOldRow = function delete_dg() { }
+        //上侧操作按钮
+        var toolbarData = [
+            @if (toolbarItem.Contains("query"))
+            {
+                @:{ text: "查询", iconCls: "icon-search", handler: queryRows },
+            }
+    @if (toolbarItem.Contains("add"))
+            {
+                @:{ text: "添加", iconCls: "icon-add", handler: addNewRow },
+            }
+    @if (toolbarItem.Contains("edit"))
+            {
+                <text>
+    { text: "编辑", iconCls: "icon-edit", handler: editOldRow },
+        "-",
+        </text>
+            }
+    @if (toolbarItem.Contains("delete"))
+            {
+                @:{ text: "删除", iconCls: "icon-cancel", handler: deleteOldRow },
+            }
+        ];
     </script>
     @RenderSection("customScript", false)
     <script type="text/javascript">
@@ -26,7 +104,7 @@
                 //当从远程站点加载数据时，显示的提示信息
                 loadMsg: "正在加载数据，请稍候",
                 //上侧操作按钮
-                //toolbar: toolbarData,
+                toolbar: toolbarData,
                 //是否显示行号
                 rownumbers: true,
                 //选中一行的设置
@@ -48,7 +126,7 @@
             });
 
             function loadFilter(data) {
-                if (data.Rows && data.Total) {
+                if (data.Rows && data.Total.toString()) {
                     data.rows = data.Rows;
                     data.total = data.Total;
                     delete data.Rows;
@@ -58,7 +136,7 @@
             }
 
             //将查询条件html添加到toolbar后面
-            //$("#tool").appendTo('.datagrid-toolbar');
+            $("#tool").appendTo('.datagrid-toolbar');
 
             $("#grid-@ViewBag.GridId").datagrid('getPager').pagination({
                 beforePageText: "第",

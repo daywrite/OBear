@@ -31,6 +31,8 @@ namespace OBear.Hosting.Web
                 "~/Scripts/json2.js",
                 "~/Scripts/jquery.linq.js"
                 ));
+            //全局js工具
+            bundles.Add(new ScriptBundle("~/bundles/obear").Include("~/Scripts/obear.global.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",

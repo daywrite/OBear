@@ -3,16 +3,84 @@
     ViewBag.Title = "示例列表";
     ViewBag.GridId = "demo-entity";
     ViewBag.GridDataUrl = Url.Action("GetGridData");
+    ViewBag.AddUrl = Url.Action("Add");
+    ViewBag.EditUrl = Url.Action("Update");
+    ViewBag.DeleteUrl = Url.Action("Delete");
     //ViewBag.ToolbarItem = string.Empty;
     ViewBag.fit = "true";
 }
-@section customScript{
+<!DOCTYPE html>
+<html>
+<head>
+    <title>小区基本信息</title>
+    @section customScript{
+        <script type="text/javascript">
+            columns = [[
+                     { field: "Id", title: "编号", width: 50, halign: "center", align:'center', sortable: true },
+                     { field: "Name", title: "名称", width: 200, sortable: true },
+                     { field: "Remark", title: "备注", width: 500, sortable: true },
+                     { field: "CreatedTime", title: "创建时间", width: 150, sortable: true }
+            ]];
+        </script>
+    }
     <script type="text/javascript">
-        columns = [[
-                 { field: "Id", title: "编号", width: 50, halign: "center", align: "right", sortable: true },
-                 { field: "Name", title: "名称", width: 200, sortable: true },
-                 { field: "Remark", title: "备注", width: 500, sortable: true },
-                 { field: "CreatedTime", title: "创建时间", width: 150, sortable: true }
-        ]];
+        //定义查询条件对象
+        function queryVaule() {
+            var filterData = new Object();
+
+            filterData.Rules = [
+                { "Field": "Name", "Value": $("#QueryName").val(), "Operate": "Contains" },
+                { "Field": "Remark", "Value": $("#QueryRemark").val(), "Operate": "equal" }
+            ];
+            filterData.Operate = "Or";
+
+            return filterData;
+        }
+
+        //给文本框赋值
+        function MakeValue(selected) {
+            //姓名
+            $("#Name").val(selected.Name);
+            //备注
+            $("#Remark").val(selected.Remark);
+        }
     </script>
-}
+</head>
+<body>
+    <div id="tool">
+        <fieldset style="border: #EEE685 1px solid; ">
+            <legend style="BORDER: #EEE685 1px solid; BACKGROUND-COLOR: #F4F4F4; TEXT-ALIGN: center; ">查询条件</legend>
+            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                <tr>
+                    <td>
+                        名称：<input type="text" id="QueryName" name="QueryName" class="easyui-validatebox" />
+                    </td>
+                    <td>
+                        备注：<input type="text" id="QueryRemark" name="QueryRemark" class="easyui-validatebox" />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </div>
+    <div id="dd_dg" style=" display:none">
+        <form id="fm_dg">
+            <table cellpadding="1" cellspacing="1" border="1">
+                <tr>
+                    <td>
+                        <span style="color:red;">*</span>姓名:
+                    </td>
+                    <td>
+                        <input type="text" id="Name" name="Name" class="easyui-validatebox" required="true" missingmessage="请填写姓名" />
+                    </td>
+                    <td>
+                        <span style="color:red;">*</span>备注：
+                    </td>
+                    <td colspan="7">
+                        <input type="text" id="Remark" name="Remark" class="easyui-validatebox" required="true" missingmessage="请填写备注" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
